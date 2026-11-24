@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos del Menu Principal */
+.menu-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+.btn-menu {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: Georgia, serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    transition: opacity 0.2s;
+}
+
+.btn-menu:hover {
+    opacity: 0.9;
+}
+
+.btn-ej1 {
+    background-color: #b000b5; /* Morado/Magenta */
+}
+
+.btn-ej2 {
+    background-color: #8bc316; /* Verde lima */
+}
+
+/* Estilos de los Formularios */
+.form-card {
+    background-color: #ffffff;
+    padding: 35px 40px;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+}
+
+.form-card h1 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 32px;
+    color: #222222;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #444444;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn-submit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.btn-submit:hover {
+    background-color: #0069d9;
+}
+
+.resultados {
+    margin-top: 25px;
+    text-align: left;
+    font-size: 17px;
+    color: #222222;
+    line-height: 1.6;
+}
+
+.volver {
+    display: inline-block;
+    margin-top: 20px;
+    color: #555555;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.volver:hover {
+    text-decoration: underline;
+}
